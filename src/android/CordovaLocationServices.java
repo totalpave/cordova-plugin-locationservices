@@ -279,7 +279,7 @@ public class CordovaLocationServices extends CordovaPlugin implements
         LocationManager lm = (LocationManager) this.cordova.getActivity().getSystemService(
                 Context.LOCATION_SERVICE);
         try {
-            gps_enabled = lm.isProviderEnabled(LocationManager.GPS_PROVIDER);
+            gps_enabled = lm.isProviderEnabled(LocationManager.PASSIVE_PROVIDER);
         } catch (Exception ex) {
             ex.printStackTrace();
             gps_enabled = false;
