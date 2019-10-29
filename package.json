@@ -1,6 +1,9 @@
 {
-  "name": "cordova-plugin-locationservices",
-  "version": "2.1.0",
+  "name": "@totalpave/cordova-plugin-locationservices",
+  "version": "1.0.0",
+  "totalpave": {
+    "thirdparty": true
+  },
   "description": "Android geolocation plugin using Google Play Services Location API.",
   "cordova": {
     "id": "cordova-plugin-locationservices",
